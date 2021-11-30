@@ -2,7 +2,7 @@
 Simple simulation system of a sandbox full of agents. Supports building of the scene, programing of individual agent's behaviour and offers controls to run and speed up the simulation.<br />
 
 Written in C++ ([wxWidgets](https://www.wxwidgets.org/)), utilizes [Lua](http://www.lua.org/about.html)
-[Agents2007 screenshot](https://smejkal.software/img/agents2007_scr1.jpg)
+![Agents2007 screenshot](https://smejkal.software/img/agents2007_scr1.jpg)
 
 ## Vanilla v0.9.0 release
 
