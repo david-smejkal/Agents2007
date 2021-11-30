@@ -1,0 +1,1 @@
+<skript>if not jestenavlavo() then &#x0A; turnleft() &#x0A; posun() &#x0A; else if not jestena() then &#x0A; posun() &#x0A; else &#x0A; turnright()&#x0A; end &#x0A; end&#x0A;</skript>

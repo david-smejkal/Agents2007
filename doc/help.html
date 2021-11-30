@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-2">
+  <title>Nápoveda k programu Agents2007</title>
+  </head>
+  <body>
+
+<a name='obsah'></a>
+<h1>Nápoveda programu Agents2007</h1>
+
+<ul>
+<li><a href='#autori'>Autori</a></li>
+<li><a href='#charakteristika'>Charakteristika programu</a></a></li>
+<li><a href='#instalacia'>Inštalácia programu</a></a></li>
+<li><a href='#nacitanie'>Načítanie scény</a></li>
+<li><a href='#ulozenie'>Uloženie scény</a></li>
+<li><a href='#editacia'>Editačný režim</a></li>
+<li><a href='#simulacia'>Simulačný režim</a></li>
+<li><a href='#pohlad'>Ovládanie pohľadu</a></li>
+<li><a href='#spravanie'>Správanie agentov</a></li>
+</ul>
+
+<a name='autori'></a>
+<h2>Autori:</h2>
+
+<ul>
+  <li>xnagye00 - Erik Nagy</li>
+  <li>xsmejk13 - Dávid Smejkal</li>
+  <li>xsusma00 - Martin Šůs</li>
+  <li>xtrnko00 - Andrej Trnkóci</li>
+</ul>
+<a href='#obsah'>hore</a>
+
+<a name='charakteristika'></a>
+<h2>Charakteristika programu:</h2>
+  <p>Program Agents 2007 predstavuje jednoduchý simulátor agentného systému. Aplikácia umožňuje vytvoriť scénu ľubovoľných rozmerov, umiestniť do nej agentov, ktorých správanie je možné definovať jedoduchým skriptovacím jazykom. Ďalej je možné do scény ukladať nepremiestniteľné objekty(steny) a premiestniteľné objekty, s ktorými môžu agenti hýbať. Aplikácia má dva módy: editačný a simulačný. V editačnom môde je možné editovať scénu a chovanie agentov. Simulačný mód simuluje pohyb agentov po scéne. Podrobnejší popis jednotlivých funkcií nájdete v ďalšej časti tejto nápovedy.
+  </p>
+<a href='#obsah'>hore</a>
+
+
+<a name='instalacia'></a>
+<h2>Inštalácia programu:</h2>
+  <p>Program sa kompiluje príkazom make v zložke obsahujúcej makefile, to je zložka rozbaleného archívu s programom Agents 2007. Výsledný program sa volá agents2007.
+  </p>
+<a href='#obsah'>hore</a>
+
+<a name='nacitanie'></a>
+<h2>Načítanie scény:</h2>
+	<p>Scénu je možné načítať v menu cez File->Open alebo stlačením tlačítka "open file". Scéna sa načíta zo súborov, ktoré sú uložené vo formáte XML. Súbory scény končia príponou ".sc.xml", a sú uložné v podadresáry /saves. V dialógu načítania je možné načítať práve jednu scénu. Scéna, ktorá bola používaná pred načítaním novej scény sa stráca. Načítanú scénu je možné editovať, opäť uložiť a spustiť jej simuláciu.
+  </p>
+<a href='#obsah'>hore</a>
+
+<a name='ulozenie'></a>
+<h2>Uloženie scény:</h2>
+	<p>Uloženie scény sa realizuje pomocou menu cez File->Save alebo tlačítkom "save file". Ukladá sa aktuálna scéna aj so svojím obsahom do súborou s príponou sc.xml. Po uložení sa scéna nestráca a je možné pokračovať v jej editácii a následne je možné spustiť simuláciu.
+  </p>
+<a href='#obsah'>hore</a>
+
+<a name='editacia'></a>
+<h2>Editačný režim:</h2>
+	<p>Do editačného režimu sa dostanete buď automaticky pri spustení programu, alebo pokiaľ ste v simulačnom režime, do editačného sa dostaneťe stlačením tlačidla STOP, resp. v menu cez File->Stop. Na scéne je možné editovať všetky pozície, okrem obvodových, kde je implicitne stena. Editácia políčka, pozície, sa vykoná stlačením, resp držaním lavého tlačidla myši na pozíciách, ktoré chceme editovať. </p>
+  <p>Do scény je možné vkladať objekty podľa výberu na pravej strane aplikácie:<br>
+  <br>
+  <b>erase</b> - vymaže obsah políčka<br>
+  <b>agent</b> - vloží agenta na scénu<br>
+  <b>wall</b> - umiestni stenu(nepremiestnitelný objekt) na scénu<br>
+  <b>object</b> -  umiestni premiestnitelný objekt na scénu<br>
+  <br>
+  Agenta je možné otočiť, v smere hodinových ručičiek, pravým kliknutím myši na jeho pozíciu.
+  </p>
+<a href='#obsah'>hore</a>
+
+<a name='simulacia'></a>
+<h2>Simulačný režim:</h2>
+
+	<p>Simuláciu je možné spustiť tlačídkom PLAY a zastaviť tlačídkom STOP. Rýchlosť simulácie je možné ovládať posuvným ukazatelom na lište, pričom simulácia má najkratšie zdržanie(simulácia je najrýchlejšia) keď je ukazateľ vľavo. Počas simulácie nieje možné editovať scénu. Scénu je možné uložiť v ktoromkoľvek momente simulácie.
+  </p>
+<a href='#obsah'>hore</a>
+
+
+<a name='pohlad'></a>
+<h2>Ovládanie pohladu:</h2>
+	<p>Pohľad na scénu je možné priblížiť  alebo oddialiť . Ak scéna presahuje hranice okna, je možné dostať sa rolovaním na dolnej a pravej strane okna, na želanú pozíciu.
+  </p>
+<a href='#obsah'>hore</a>
+
+<a name='spravanie'></a>
+<h2>Správanie agentov:</h2>
+
+	<p>Správanie agenta je možné editovať v dialógovom okne, kde sa jeho chovanie zapisuje v jednoduchom skriptovacom jazyku. Syntax skriptovacieho jazyka je daná interpretom LUA, pričom je možné použiť nasledujúce vstavané funkcie:
+  
+
+ </p>
+<b>turnleft()</b> - otočenie agenta doľava.<br>
+<b>turnright()</b> - otočenie agenta doprava<br>
+<b>turnback()</b> - obrat agenta čelom vzad<br>
+<b>turnrandom()</b> - náhodné otočenie agenta<br>
+<b>canturnrandom()</b> -  náhodné otočenie agenta s vysokou pravdepodobnosťou, že sa neotočí<br>
+<b>gorandom()</b> - agent spraví náhodný krok dopredu, pokiaľ to je možné<br>
+<b>dvihni()</b> - agent zdvihne predmet, pokiaľ tam predmet je<br>
+<b>poloz()</b> - agent položí predmet<br>
+<b>posun()</b> - agent sa posunie vo svojom smere o jednu pozíciu<br>
+<b>jestena()</b> - agent môže zistiť, či je pred ním stena<br>
+<b>jestenavlavo()</b> - agent môže zistiť, či je vľavo stena<br>
+<b>jestenavpravo()</b> - agent môže zistiť, či je vpravo stena<br>
+<b>jevolno()</b> - agent môže zistiť, či je pred ním voľno<br>
+<b>jepredmet()</b> - agent môže zistiť, či je pred ním predmet<br>
+<b>mampredmet()</b> - agent môže zistiť, či drží predmet<br>
+<b>jeagent()</b> - agent môže zistiť, či je pred ním agent<br>
+
+<p>
+  Predvolené správanie agentov je možné načítať zo súborov vo formáte XML. Tieto súbory sú uložené v /saves a majú príponu .ag.xml. Je možné ich editovať priamo v aplikácii.
+</p>
+<a href='#obsah'>hore</a>
+  </body>
+</html>

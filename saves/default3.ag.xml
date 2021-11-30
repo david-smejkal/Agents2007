@@ -1,0 +1,11 @@
+<skript>
+if jepredmet() and not mampredmet() then &#x0A;
+  posun()  &#x0A;
+  dvihni() &#x0A;
+end &#x0A;
+if jevolno() then &#x0A;
+  posun() &#x0A;
+  else &#x0A;
+  turnrandom()&#x0A;
+end &#x0A;
+</skript>

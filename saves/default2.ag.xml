@@ -1,0 +1,1 @@
+<skript>if jepredmet() and not mampredmet() then &#x0A; posun() &#x0A; dvihni() &#x0A; else &#x0A; if jeagent() and mampredmet() then &#x0A; poloz() &#x0A; else &#x0A; canturnrandom() &#x0A; posun()&#x0A; end &#x0A; end &#x0A;</skript>
