@@ -10,4 +10,4 @@ Written in C++ ([wxWidgets](https://www.wxwidgets.org/)), utilizes [Lua](http://
 This project is put on GitHub (in its vanilla state v0.9.0) as it was delivered back in 2007.<br />
 It was a collaborative work of four developers and so some parts haven't been fully translated to English.
 
-I'll be polishing it in the near future to work towards a fully translated and documented v1.0.0 release.
+v1.0.0 release will be aimed to provide a fully translated English version.
