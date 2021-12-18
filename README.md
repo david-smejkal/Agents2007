@@ -1,6 +1,6 @@
 # Agents2007
 A simple simulation / sandbox environment with programmable agents.<br />
-Supports building of the scene of immovable walls, movable objects and seeding of various agents with programmable behaviour. GUI also offers ways to run and control the simulation.<br />
+Provides tools to build a sandbox with immovable walls, movable objects and various agents with programmable behaviour. Each type of agent is driven by its own LUA script which can be edited directly in the GUI of the application. GUI also offers ways to run and control the simulation.<br />
 
 Written in C++ ([wxWidgets](https://www.wxwidgets.org/)), utilizes [Lua](http://www.lua.org/about.html)
 ![Agents2007 screenshot](https://smejkal.software/img/agents2007_scr1.jpg)
